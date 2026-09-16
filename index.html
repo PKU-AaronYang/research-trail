@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Research Trail v4.0 · 做当前这一步</title><meta name="description" content="科研导航：选择项目，复制当前任务，做完再继续。">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./styles.css?v=4.0">
+  <script src="./prompts.js?v=4.0" defer></script><script src="./stages.js?v=4.0" defer></script><script src="./translations.js?v=4.0" defer></script><script src="./prompt-engine.js?v=4.0" defer></script><script src="./state.js?v=4.0" defer></script><script src="./app.js?v=4.0" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到内容</a>
+  <header class="topbar"><button class="brand" data-action="home" aria-label="研途项目首页"><span class="brand-icon">研</span><span>研途 <em>Research Trail</em></span></button><span class="edition">v4.0 · 做当前这一步</span><details class="top-more"><summary>更多</summary><div><button data-action="backup">备份与恢复</button><button data-action="help">使用说明</button><a href="./DEPLOY.md" target="_blank" rel="noopener">部署说明 ↗</a></div></details></header>
+  <div id="storage-alert" role="status"></div>
+  <main id="main" tabindex="-1"></main>
+  <footer><span id="save-state" role="status">记录保存在当前浏览器</span><span>Research Trail v4.0</span></footer>
+  <dialog id="modal" aria-labelledby="modal-title"><div class="modal-header"><h2 id="modal-title"></h2><button data-action="close" aria-label="关闭对话框">✕</button></div><div id="modal-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript>请启用 JavaScript 使用项目与流程导航。</noscript>
+</body></html>
